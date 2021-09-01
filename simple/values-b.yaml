@@ -1,0 +1,7 @@
+nameOverride: simple-b
+
+testValueNotInValues: b
+
+testType:
+  b: hey
+  a: hello from b

@@ -1,0 +1,6 @@
+nameOverride: simple-a
+
+testValueNotInValues: a
+
+testType:
+  a: hallo

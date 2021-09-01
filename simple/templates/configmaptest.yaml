@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-{{ .Values.nameOverride }}
+data:
+  testValueNotInValues: {{ .Values.testValueNotInValues }}
+  testType: {{ .Values.testType | toYaml | quote }}
